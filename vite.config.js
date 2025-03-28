@@ -8,4 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    preview: {
+        allowedHosts: [
+            'localhost',
+            'laravel-application2-1-31dq.onrender.com' // Add your Render URL here
+        ]
+    }
 });
