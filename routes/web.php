@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/test', function () {
-    return 'This is a test route';
+Route::get('/', function () {
+    return view('welcome');
 });
